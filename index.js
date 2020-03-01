@@ -2,12 +2,14 @@ const ffprobe = require('ffprobe-mini');
 const debug = require('debug')('ffmpeg-extract');
 const video = require('./lib/video');
 const music = require('./lib/music');
+const shared = require('./lib/shared');
 const noop = () => {};
 
 module.exports =
 {
 	video: video,
 	music: music,
+	shared: shared,
 	analyzeFile: function(opts, cb)
 	{
 		cb = cb || noop;
