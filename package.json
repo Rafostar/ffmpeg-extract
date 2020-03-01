@@ -1,0 +1,34 @@
+{
+  "name": "ffmpeg-extract",
+  "version": "1.0.0",
+  "description": "Find and extract video subtitles or music cover using ffmpeg",
+  "main": "index.js",
+  "files": [
+    "lib/",
+    "*.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rafostar/ffmpeg-extract.git"
+  },
+  "keywords": [
+    "ffmpeg",
+    "video",
+    "subtitles",
+    "music"
+  ],
+  "author": "Rafostar",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Rafostar/ffmpeg-extract/issues"
+  },
+  "homepage": "https://github.com/Rafostar/ffmpeg-extract#readme",
+  "dependencies": {
+    "chardet": "^0.8.0",
+    "debug": "^4.1.1",
+    "ffprobe-mini": "^1.0.1"
+  }
+}
